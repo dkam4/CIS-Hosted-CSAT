@@ -1,4 +1,4 @@
-site_name: CIS Controls Self Assessment Tool Document Library
+site_name: CIS-Hosted CSAT
 
 nav:
     - Home: index.md
