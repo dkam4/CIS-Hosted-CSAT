@@ -1,0 +1,15 @@
+site_name: CIS Controls Self Assessment Tool Document Library
+
+nav:
+    - Home: index.md
+    - GENERAL:
+        - 'About CIS-Hosted CSAT': source/About CIS-Hosted CSAT.md
+
+    - Configuration Guide:
+        - 'Creating CSAT Account for the first time': source/Creating CSAT Account.md
+        - 'Joining an existing account': source/Joining an existing account.md
+        - 'Requirements': source/Requirements.md
+
+        
+theme:
+    name: readthedocs
