@@ -9,6 +9,10 @@ nav:
         - 'Creating CSAT Account for the first time': source/Creating CSAT Account.md
         - 'Joining an existing account': source/Joining an existing account.md
         - 'Requirements': source/Requirements.md
+    - Users and Organization:
+        - 'Organization Creation' :
+        - 'Primary Owner'
+        - 'Users'
 
         
 theme:
