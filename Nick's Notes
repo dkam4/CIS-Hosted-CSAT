@@ -1,0 +1,5 @@
+Nick's Notes. 
+Confused on the mkdocs.yml. The documentation states: A basic MkDocs configuration is stored here, including a few extensions for MkDocs and Markdown. Add your own configurations here, such as extensions and themes. Remember that many extensions and themes require additional Python packages to be installed
+Parami has the navigation panel set in the mkdocs.yml. I don't believe that is correct. The *.md files make up the big chunks/sections and within those files you set the subsections with the informtion. Everything in a big sections is containted in the *.md files
+
+It sounds like this will be hosted in a Docker Container?
