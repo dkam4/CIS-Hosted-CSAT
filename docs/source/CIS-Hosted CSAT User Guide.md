@@ -35,7 +35,19 @@ If you already have a CSAT account, are an admin, and would like add new users, 
 
 This section describes the basic CSAT Pro concepts including users, organizations, and assessments, as well as how they relate to each other.
 
-### Users and Privileges
+
+### Login Page
+
+Users can enter their username and password here to login. Usernames are not case sensitive. Users will receive a “Login failed. Username/Password was incorrect” message if the username was not recognized, or if the password provided was not the correct password for that username. If an account is disabled, login attempts for that username will receive an “Account disabled. Please contact your Administrator” message.
+
+The Login page also has a “Forgot Password?” link below the username/password fields. Doing so will send an email to the email address on file for that username. The email will contain a link that will allow the user to reset the password for that account.
+
+
+### Two-Factor Authentication
+Multi-Factor Authentication (MFA) is required to login. After successfully entering their username and password, users will be brought to the OTP page. Here users will submit the One Time Passcode (OTP) that was sent to the email account associated with the username. If too much time has passed since the login, or the user enters too many incorrect OTPs, the OTP will become invalid and the user will need to login again to receive a new OTP.
+
+
+### Users and Privileges [source](https://cisecurity.atlassian.net/wiki/spaces/SCFKB/pages/625672294/Users+and+Permission+for+CIS+CSAT+tool)
 
 There are 3 types of users in CIS-Hosted CSAT: 
 
@@ -52,3 +64,21 @@ Here are some use case examples;
 - If you do not want a user to have access to add/delete users, or create/delete assessments in that organization, you could go with a basic user/member, and assign that basic user to all Sub-Controls or a subset of the Sub-Controls.  With the new bulk assignment ability in CIS CSAT v1.3.0 it is easier to assign a large number of Sub-Controls to a single user.
 
   
+### Home Page
+
+Upon logging in to CSAT, a user will arrive at the Dashboard page. This page displays organization and assessment information that is specific to the current user. You can return to the Dashboard page by selecting “Dashboard” from the side menu at any point. The Dashboard page contains the following sections:
+
+#### Organization & Industry Average, Completion & Validation Percentage [source](https://cisecurity.atlassian.net/wiki/spaces/SCFKB/pages/276267293/How+are+individual+organization+assessment+and+industry+average+scores+calculated+in+CSAT) 
+
+**Organization Average** - 
+The assessment average for the organization (shown as "Organization Average" on the main Dashboard and "Overall Score" on the pages for particular Controls) is calculated by averaging the scores of all applicable Controls in the assessment. All applicable Sub-Controls within a Control are averaged together to calculate the Control Average Score for that assessment. A Sub-Control's score is calculated based on the applicable scoring categories within that Sub-Control.
+
+**Industry Average** - 
+The assessment average for the industry your organization is apart of. The assessment level Industry Average(displayed on the Dashboard) for that industry is calculated by averaging the Organization Averages for all of the organizations in that industry.  (Note: this is different than averaging the Control Industry Average scores for all Controls in that industry). The Control Industry Average Score(Spiderweb on the Dashboard) for a particular Control is calculated by averaging the Control Average Scores for that Control in each of the organizations in that industry that have identified that Control as applicable. 
+
+The industry type was selected during the creation of the organizaiton's CSAT account. If you don't remember which industry you selected, you can check by selecting "Adminstration" from the side menu. This will display the industry selected for the organization, as well as any sub-organizations. Selecting "edit" on the organization block will allow you to change industries. 
+
+**Completion %** - 
+
+
+**Validation %** - 
