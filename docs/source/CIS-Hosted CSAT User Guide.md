@@ -87,6 +87,22 @@ The percentage of applicable Controls that have been completed and validated. On
 
 
 #### Sub-Organizations
-Sub-organizations can be created in a CSAT instance. If you are the organization owner, you can add sub-organizations. Go to the 'Administration' section and there will be a green 'Create' button to add sub-organizations. Please note this will only be available to organization primary-owners and not all general 'admin' users.
+Sub-organizations can be created in a CSAT instance. Only the organization's primary-owner can add sub-organizations. To do so, navigate to the 'Administration' section, and there will be a green 'Create' button to add sub-organizations.
+
+
 ![image](https://github.com/user-attachments/assets/d4622c75-576c-4994-806b-a43fdae46967)
 
+
+
+
+### Assessments 
+Admins can create assessments in the organizations that they administer. Each assessment will be open or closed. There can only be one open assessment per organization. Assessments begin “open” which means that users in that organization can work on those assessments based on their Organization Role. When an assessment is completed, an Admin can close the assessment. A “closed” assessment can still be viewed, but it cannot be edited. An Admin can re-open a closed assessment as needed. 
+
+**Assessment History** - 
+The Assessment History page displays all assessments that have completed for the organization. The Assessment Scores Graph displays the score for all previously completed assessments. To view an old assessment, click on the assessment box. This will bring you to the Dashboard page, and across the top of the screen the Assessment period will be displayed. The old assessment cannot be edited, it is view-only. 
+Within the assessment block there are three icons. The green hourglass icon starts a new assessment using the data from this previous assessment. The green pen icon edits the name of the assessment. The red trashcan icon deletes the old assessment. 
+
+#### Creating a New Blank Assessment 
+
+
+#### Importing an Assessment
