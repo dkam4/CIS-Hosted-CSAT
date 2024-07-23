@@ -79,6 +79,14 @@ The assessment average for the industry your organization is apart of. The asses
 The industry type was selected during the creation of the organizaiton's CSAT account. If you don't remember which industry you selected, you can check by selecting "Adminstration" from the side menu. This will display the industry selected for the organization, as well as any sub-organizations. Selecting "edit" on the organization block will allow you to change industries. 
 
 **Completion %** - 
+The percentage of applicable Controls that have been completed. Once an applicable Control's four scoring categories have been filled out, the Complete button will appear. Once the Control is completed, the Completion % will be updated to reflect the change. 
 
 
 **Validation %** - 
+The percentage of applicable Controls that have been completed and validated. Once a Control has been completed, it needs to be validated. Once the control is validated, the Validation % will be updated to reflect the change. 
+
+
+#### Sub-Organizations
+Sub-organizations can be created in a CSAT instance. If you are the organization owner, you can add sub-organizations. Go to the 'Administration' section and there will be a green 'Create' button to add sub-organizations. Please note this will only be available to organization primary-owners and not all general 'admin' users.
+![image](https://github.com/user-attachments/assets/d4622c75-576c-4994-806b-a43fdae46967)
+
