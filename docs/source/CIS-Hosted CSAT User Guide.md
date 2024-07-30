@@ -112,8 +112,10 @@ To start a new assessment, select the green box with the assessment name:
 The three options are: 
 
 **Start New Blank Assessment** - Starts a new blank assessment 
+
 **Start New Assessment Using Current Data** - Starts a new assessment with the current assessments data
+
 **Start New Assessment With File Upload** - Starts a new assessment using a .xlsx file of a previously exported assessment
 
-The CIS Controls version for an assessment can only be changed by starting a new assessment. 
+The CIS Controls version can only be changed when starting a new assessment. 
 
