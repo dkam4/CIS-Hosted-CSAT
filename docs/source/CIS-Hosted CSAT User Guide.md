@@ -102,7 +102,18 @@ Admins can create assessments in the organizations that they administer. Each as
 The Assessment History page displays all assessments that have completed for the organization. The Assessment Scores Graph displays the score for all previously completed assessments. To view an old assessment, click on the assessment box. This will bring you to the Dashboard page, and across the top of the screen the Assessment period will be displayed. The old assessment cannot be edited, it is view-only. 
 Within the assessment block there are three icons. The green hourglass icon starts a new assessment using the data from this previous assessment. The green pen icon edits the name of the assessment. The red trashcan icon deletes the old assessment. 
 
-#### Creating a New Blank Assessment 
+#### Creating a New Assessment 
+To start a new assessment, select the green box with the assessment name: 
 
 
-#### Importing an Assessment
+![image](https://github.com/user-attachments/assets/8798f8bb-55f2-4003-9279-35a8c70e4dde)
+
+
+The three options are: 
+
+**Start New Blank Assessment** - Starts a new blank assessment 
+**Start New Assessment Using Current Data** - Starts a new assessment with the current assessments data
+**Start New Assessment With File Upload** - Starts a new assessment using a .xlsx file of a previously exported assessment
+
+The CIS Controls version for an assessment can only be changed by starting a new assessment. 
+
