@@ -121,3 +121,15 @@ The CIS Controls version can only be changed when starting a new assessment.
 **Assessment History** - 
 The Assessment History page displays all assessments that have completed for the organization. The Assessment Scores Graph displays the score for all previously completed assessments. To view an old assessment, click on the assessment box. This will bring you to the Dashboard page, and across the top of the screen the Assessment period will be displayed. The old assessment cannot be edited, it is view-only. 
 Within the assessment block there are three icons. The green hourglass icon starts a new assessment using the data from this previous assessment. The green pen icon edits the name of the assessment. The red trashcan icon deletes the old assessment. 
+
+
+#### CSAT Scoring Categories Definitions#### - 
+An organization can use the 4 scoring categories for whatever makes the most sense for your organization. In general, these categories refer to:
+
+Policy Defined – to what degree is this Sub-Control covered by your organization’s policies?
+
+Control Implemented – to what degree has your organization implemented this Sub-Control?  This can factor in coverage (such as what percentage of the machines in your organization have this Sub-Control implemented) and/or level of implementation (for instance, all machines in your organization could have the Sub-Control partially implemented).
+
+Control Automated – to what degree does your organization enforce this Sub-Control through automated means vs. manual/procedural means?
+
+Control Reported – to what degree is the state of this Sub-Control being reported within your organization, generally to leadership or management?  Are updates on the state of that Sub-Control's implementation getting to where they need to go (to the decision makers who can act on them, to those who can decide if the organization needs to invest more to improve that Sub-Control's implementation in order to reduce risk, to meet any reporting requirements the organization has including requirements from organizational policies or from regulatory requirements, etc.)?
