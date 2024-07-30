@@ -98,9 +98,6 @@ Sub-organizations can be created in a CSAT instance. Only the organization's pri
 ### Assessments 
 Admins can create assessments in the organizations that they administer. Each assessment will be open or closed. There can only be one open assessment per organization. Assessments begin “open” which means that users in that organization can work on those assessments based on their Organization Role. When an assessment is completed, an Admin can close the assessment. A “closed” assessment can still be viewed, but it cannot be edited. An Admin can re-open a closed assessment as needed. 
 
-**Assessment History** - 
-The Assessment History page displays all assessments that have completed for the organization. The Assessment Scores Graph displays the score for all previously completed assessments. To view an old assessment, click on the assessment box. This will bring you to the Dashboard page, and across the top of the screen the Assessment period will be displayed. The old assessment cannot be edited, it is view-only. 
-Within the assessment block there are three icons. The green hourglass icon starts a new assessment using the data from this previous assessment. The green pen icon edits the name of the assessment. The red trashcan icon deletes the old assessment. 
 
 #### Creating a New Assessment 
 To start a new assessment, select the green box with the assessment name: 
@@ -119,3 +116,7 @@ The three options are:
 
 The CIS Controls version can only be changed when starting a new assessment. 
 
+
+**Assessment History** - 
+The Assessment History page displays all assessments that have completed for the organization. The Assessment Scores Graph displays the score for all previously completed assessments. To view an old assessment, click on the assessment box. This will bring you to the Dashboard page, and across the top of the screen the Assessment period will be displayed. The old assessment cannot be edited, it is view-only. 
+Within the assessment block there are three icons. The green hourglass icon starts a new assessment using the data from this previous assessment. The green pen icon edits the name of the assessment. The red trashcan icon deletes the old assessment. 
