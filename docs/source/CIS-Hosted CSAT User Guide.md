@@ -117,6 +117,7 @@ The three options are:
 The CIS Controls version can only be changed when starting a new assessment. 
 
 
+
 **Assessment History** - 
 The Assessment History page displays all assessments that have completed for the organization. The Assessment Scores Graph displays the score for all previously completed assessments. To view an old assessment, click on the assessment box. This will bring you to the Dashboard page, and across the top of the screen the Assessment period will be displayed. The old assessment cannot be edited, it is view-only. 
 Within the assessment block there are three icons. The green hourglass icon starts a new assessment using the data from this previous assessment. The green pen icon edits the name of the assessment. The red trashcan icon deletes the old assessment. 
