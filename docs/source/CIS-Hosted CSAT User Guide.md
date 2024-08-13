@@ -135,7 +135,7 @@ Sub-organizations can be created in a CSAT instance. Only Primary Owners can cre
 2. On the Administration page, click the Create button to the right of the "Secondary Organizations" heading
 3. Fill out the information in the Create Organization pop-up (name, industry, website, IG, and Critical Controls Version) and click Save
 
-Sub-organizations each have their own assessments, distinct from the assessments of their parent organization.  Once the sub-organization is created, you can navigate to that new sub-organization by selecting its name from the Organizations menu on the left.  With a sub-organization selected, you can add users to that sub-organization (see As an Org or Sub-Org Admin I'd like to add new users to CIS-Hosted CSAT. ), or create additional sub-organizations under it from the Administration page for that sub-organization.
+Sub-organizations each have their own assessments, distinct from the assessments of their parent organization.  Once the sub-organization is created, you can navigate to that new sub-organization by selecting its name from the Organizations menu on the left.  With a sub-organization selected, you can add users to that sub-organization, or create additional sub-organizations under it from the Administration page for that sub-organization.
 
 
 ![CSAT Suborg](https://github.com/user-attachments/assets/798c0544-f054-463b-8e5c-c2eb68fc2674)
