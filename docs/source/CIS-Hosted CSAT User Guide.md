@@ -227,7 +227,7 @@ Organizations with limited resources where the sensitivity of data is low will n
 
 Organizations with moderate resources and greater risk exposure for handling more sensitive assets and data will need to implement the IG2 controls along with IG1. These Safeguards focus on helping security teams manage sensitive client or company information.
 
-### IG3
+#### IG3
 
 Mature organizations with significant resources and high risk exposure for handling critical assets and data need to allocate the Safeguards under the IG3 category along with IG1 and IG2. The Safeguards that help reduce the impact targeted attacks from sophisticated adversaries typically fall into IG3.
 
