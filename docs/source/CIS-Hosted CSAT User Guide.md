@@ -62,6 +62,17 @@ The Login page also has a “Forgot Password?” link below the username/passwor
 Multi-Factor Authentication (MFA) is required to login. After successfully entering their username and password, users will be brought to the OTP page. Here users will submit the One Time Passcode (OTP) that was sent to the email account associated with the username. If too much time has passed since the login, or the user enters too many incorrect OTPs, the OTP will become invalid and the user will need to login again to receive a new OTP.
 
 
+### Home Page
+
+Upon logging in to CSAT, a user will arrive at the Dashboard. This page displays organization and assessment information that is specific to the current user. You can return to the Dashboard by selecting “Dashboard” from the side menu at any point. 
+
+
+Example of an admin's Dashboard: 
+
+![image](https://github.com/user-attachments/assets/156d06e2-af2e-4f85-a7fe-4f0dda6df6f9)
+
+<br> 
+
 ## Users and Privileges [source](https://cisecurity.atlassian.net/wiki/spaces/SCFKB/pages/625672294/Users+and+Permission+for+CIS+CSAT+tool)
 
 There are 3 types of users in CIS-Hosted CSAT: 
@@ -79,34 +90,8 @@ Here are some use case examples;
 - If you do not want a user to have access to add/delete users, or create/delete assessments in that organization, you could go with a basic user/member, and assign that basic user to all Sub-Controls or a subset of the Sub-Controls.  With the new bulk assignment ability in CIS CSAT v1.3.0 it is easier to assign a large number of Sub-Controls to a single user.
 
   
-### Home Page
 
-Upon logging in to CSAT, a user will arrive at the Dashboard. This page displays organization and assessment information that is specific to the current user. You can return to the Dashboard by selecting “Dashboard” from the side menu at any point. 
-
-
-Example of an admin's Dashboard: 
-
-![image](https://github.com/user-attachments/assets/156d06e2-af2e-4f85-a7fe-4f0dda6df6f9)
-
-<br> 
-
-### Score Color Legend
-
-As the assessment is completed, the colors of the Controls will change based on the score: 
-<br> 
-
-![image](https://github.com/user-attachments/assets/77c992c5-0473-4ff1-b958-10ee51f01b04)
-
-
-<br>
-
-
-![image](https://github.com/user-attachments/assets/3c7f9d03-1ac6-4e65-835a-5097b0216e89)
-
-
-<br> 
-
-#### Organization & Industry Average, Completion & Validation Percentage [source](https://cisecurity.atlassian.net/wiki/spaces/SCFKB/pages/276267293/How+are+individual+organization+assessment+and+industry+average+scores+calculated+in+CSAT) 
+### Organization & Industry Average, Completion & Validation Percentage [source](https://cisecurity.atlassian.net/wiki/spaces/SCFKB/pages/276267293/How+are+individual+organization+assessment+and+industry+average+scores+calculated+in+CSAT) 
 
 
 ![image](https://github.com/user-attachments/assets/62ca4ae2-526e-45b9-a13b-32965a37c6a5)
@@ -159,7 +144,7 @@ Sub-organizations each have their own assessments, distinct from the assessments
 
 
 
-### Assessments 
+## Assessments 
 Admins can create assessments in the organizations that they administer. Each assessment will be open or closed. There can only be one open assessment per organization. Assessments begin “open” which means that users in that organization can work on those assessments based on their Organization Role. When an assessment is completed, an Admin can close the assessment. A “closed” assessment can still be viewed, but it cannot be edited. An Admin can re-open a closed assessment as needed. 
 
 
@@ -194,7 +179,7 @@ To view an old assessment, click on the assessment box. This will bring you to t
 Within the assessment block there are three icons. The green hourglass icon starts a new assessment using the data from this previous assessment. The green pen icon edits the name of the assessment. The red trashcan icon deletes the old assessment. 
 
 
-#### CSAT Scoring Categories Definitions
+### CSAT Scoring Categories Definitions
 An organization can use the 4 scoring categories for whatever makes the most sense for your organization. In general, these categories refer to:
 
 **Policy Defined** – to what degree is this Sub-Control covered by your organization’s policies?
@@ -204,6 +189,22 @@ An organization can use the 4 scoring categories for whatever makes the most sen
 **Control Automated** – to what degree does your organization enforce this Sub-Control through automated means vs. manual/procedural means?
 
 **Control Reported** – to what degree is the state of this Sub-Control being reported within your organization, generally to leadership or management?  Are updates on the state of that Sub-Control's implementation getting to where they need to go (to the decision makers who can act on them, to those who can decide if the organization needs to invest more to improve that Sub-Control's implementation in order to reduce risk, to meet any reporting requirements the organization has including requirements from organizational policies or from regulatory requirements, etc.)?
+
+### Score Color Legend
+
+As the assessment is completed, the colors of the Controls will change based on the score: 
+<br> 
+
+![image](https://github.com/user-attachments/assets/77c992c5-0473-4ff1-b958-10ee51f01b04)
+
+
+<br>
+
+
+![image](https://github.com/user-attachments/assets/3c7f9d03-1ac6-4e65-835a-5097b0216e89)
+
+
+<br> 
 
 ## CIS Controls
 
