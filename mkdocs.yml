@@ -1,9 +1,9 @@
-site_name: CIS-Hosted CSAT
+site_name: CIS Hardened Images
 
 nav:
     - Home: index.md
     - GENERAL:
-        - 'About CIS-Hosted CSAT': source/About CIS-Hosted CSAT.md
+        - 'About CIS Hardened Images': source/About CIS-Hosted CSAT.md
 
     - Configuration Guide:
         - 'Creating CSAT Account for the first time': source/Creating CSAT Account.md
